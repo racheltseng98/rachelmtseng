@@ -18,9 +18,9 @@ body header{
     height: 100vh;   
 }
 
-@media screen and (max-width:700px){
+@media only screen and (max-width:50px){
 body.custom-background{
-background-image: scroll !important;
+background-image: scroll ;
 }
 }
 
