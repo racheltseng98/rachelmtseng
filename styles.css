@@ -15,9 +15,15 @@ body header{
     background-size: contain;
     background-position: center;
     background-attachment: scroll;
-    height: 100vh;   
+    height: 100%;
+    width:100%
 }
 
+@media only screen and (max-width:50px){
+body header.custom-background{
+background-image: scroll ;
+}
+}
 
 
 /* Navigation bars */
