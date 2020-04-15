@@ -12,14 +12,14 @@ body header{
     background-image: url(Background3.png);
     background-repeat: no-repeat;
     position: relative;
-    background-size: 90%;
+    background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll;
     height: 100vh;   
 }
 
 @media only screen and (max-width:50px){
-body.custom-background{
+body header.custom-background{
 background-image: scroll ;
 }
 }
