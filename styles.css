@@ -12,17 +12,13 @@ body header{
     background-image: url(Background3.png);
     background-repeat: no-repeat;
     position: relative;
-    background-size: cover;
+    background-size: auto 749px;
     background-position: center;
     background-attachment: scroll;
     height: 100vh;   
 }
 
-@media only screen and (max-width:50px){
-body header.custom-background{
-background-image: scroll ;
-}
-}
+
 
 /* Navigation bars */
 
